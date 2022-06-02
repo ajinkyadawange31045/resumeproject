@@ -1,0 +1,75 @@
+{% extends 'core/base.html' %} {% block content %}
+<div class="container mt-5">
+    <h1 class="text-warning mb-5 border-bottom">CONTACT US</h1>
+
+    <div class="row text-white mb-5">
+        <p class="mx-auto mb-5">
+            If you have any question, then please do not hesistate to contact. I will come back to within a matter of hours to help you.
+        </p>
+        <div class="col-sm-9 mb-5">
+            <form action="">
+                <div class="form-row">
+                    <div class="form-group col-md-5">
+                        <label for="inputName">Your Name</label>
+                        <input type="text" class="form-control" id="imputName">
+                    </div>
+                    <div class="form-group col-md-5">
+                        <label for="inputEmail">Your Email *</label>
+                        <input type="email" class="form-control" id="inputEmail" required />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputSubject">Your Subject</label>
+                    <input type="text" class="form-control" id="inputSubject" />
+                </div>
+                <div class="mb-3">
+                    <label for="inputTextArea">Your Message *</label>
+                    <input type="text" class="form-control" id="inputTextArea" />
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+
+            </form>
+        </div>
+
+        <div class="col-sm-3 text-center">
+            <ul class="list-unstyled">
+                <li>
+                    <i class="fas fa-map-marker-alt fa-2x i-color" aria-hidden="true"></i>
+                    <p>Nashik, Maharashtra, India</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone mt-4 fa-2x i-color" aria-hidden="true"></i>
+                    <p>telegram - Ajinkya31045</p>
+                </li>
+                <li>
+                    <i class="fas fa-envelope mt-4 fa-2x i-color" aria-hidden="true"></i>
+                    <p>ajinkyadawange333@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <a href="#" target="_blank">
+            <i class="fab fa-twitter mb-5 fa-2x i-color" aria-hidden="true"></i>
+        </a><i class="fa fa-space-shuttle" aria-hidden="true"></i>
+        <a href="#" target="_blank">
+            <i class="fab fa-facebook-f mb-5 mr-3 fa-2x i-color" aria-hidden="true"></i>
+        </a><i class="fa fa-space-shuttle" aria-hidden="true"></i>
+        <a href="#" target="_blank">
+            <i class="fab fa-instagram mb-5 fa-2x i-color  mr-3" aria-hidden="true"></i>
+        </a><i class="fa fa-space-shuttle" aria-hidden="true"></i>
+        <a href="#" target="_blank">
+            <i class="fab fa-dribbble  mb-5 fa-2x i-color" aria-hidden="true"></i>
+        </a>
+    </div>
+
+
+
+</div>
+
+
+
+{% endblock content %}
